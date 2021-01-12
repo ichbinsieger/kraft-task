@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.updateBio{
+    background-color:#1A191C ;
+    width: 70%;
+    padding: 10rem;
+}
+.biowords{
+    font-size: 3.5rem;
+    color: white;
+    padding-top: 2rem;
+}
+.updateform{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+#bioDetails{
+    margin-bottom: 5rem;
+    
+    padding: 2rem;
+    background: #1A191C;
+    border: 1px solid rgba(229, 229, 229, 0.08);
+    box-sizing: border-box;
+    border-radius: 11px;
+    outline: none;
+    color: whitesmoke;
+}
+#bioDetails::placeholder{
+    padding-left:1rem;
+    font-weight: 500;
+}
+.updatebtn{
+    background-color: #363560;
+    padding:2.8rem ;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 1.1rem;
+}
+@media (max-width:600px){
+    .updateBio{
+        background-color:#1A191C ;
+        width: 100%;
+        padding: 10rem;
+    }
+    .biowords{
+        font-size: 2.5rem;
+        color: white;
+        padding-top: 2rem;
+    }
+    .updatebtn{
+        background-color: #363560;
+        padding:2rem ;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 1.1rem;
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css/createblog.css">
+</head>
+<body>
+    <main>
+        <div class="profile">
+            <img src="/images/autumn-goodman-vTL_qy03D1I-unsplash 1.png" id="profileDp" alt="" srcset="">
+            <h1 class="username">Alice Dayo</h1>
+            <p class="usermail">alicedayo@gmail.com</p>
+            <p class="bio">
+                An hobbyist writter and an undergraduate in her final <br>
+                year at UCLG. I reside in Nigeria.
+            </p>
+                <div class="userstat">
+                    <p class="stat"> <span class="articlenum">13</span>Articles </p>
+                    <p class="stat"> <span class="postlikesnum">13</span>Post Likes </p>
+                    <p class="stat"> <span class="followersnum">180</span>followers </p>
+                </div>
+    
+              <a href="/htmlfile/updatebio.html">  <input type="button" value="Edit Profile" id="editprofile" ></a>
+    
+               <p class="logout"> <a href="">LOGOUT</a></p>
+        </div>
+        <div class="createpost">
+            <h3 class="createhead">Edit blog  post</h3>
+          
+    
+                <form action="" name="createForm" class="createForm">
+                    <input type="text" name="postTitle" id="postTitle" required placeholder="Post Title"  >
+                    <input type="text" name="Addimage" id="Addimage" placeholder="Add images here" onclick="getFile()">
+         
+                    <div style='height: 0px;width: 0px; overflow:hidden;'><input id="upload" type="file" value="upload" onchange="sub(this)" /></div>
+                     
+                  </form>
+                  <br>
+                  <textarea rows="10%"  name="comment" form="createForm" placeholder="Add post deatails here" ></textarea>
+                            <br>
+                            <button class="Createbtn" form="createForm">Create post</button>
+                
+            
+        </div>
+    </main>
+</body>
+</html>

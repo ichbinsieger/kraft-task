@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.createwords{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    line-height: 7rem;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    
+}
+.socialmedia a{
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+
+.login{
+    background-color: #1A191C;
+    width: 50%;
+    padding: 8rem;
+    padding-top: 12rem;
+}
+
+.word{
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 5rem;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+}
+#email{
+    margin-bottom: 5rem;
+}
+#password{
+    margin-bottom: 5rem;
+}
+#Loginbtn{
+    background-color: #363560;
+    padding:2.8rem ;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+}
+.registerlink{
+    color: white;
+}
+.forgot{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 1.3rem;
+}
+@media (max-width:1079px){
+   
+    .login{
+        background-color: #1A191C;
+        width: 100%;
+        padding: 8rem;
+        padding-top: 12rem;
+    }
+    .socialmedia{
+        position: absolute;
+        bottom: 12%;
+        left: 25%;
+        
+    }
+    .already{
+        font-size: 1.4rem;
+    }
+    #Loginbtn{
+        background-color: #363560;
+        padding:2rem ;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        outline: none;
+      
+    }
+    #email{
+        margin-bottom: 3rem;
+    }
+    #password{
+        margin-bottom: 3rem;
+    }
+    .word{
+        font-size: 1.6rem;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 3rem;
+ 
+    }
+   
+}
+@media (max-width:600px){
+    .socialmedia{
+        position: absolute;
+        bottom: 15%;
+        left: 25%;
+        
+    }
+    .socialmedia a{
+        font-size: 1.3rem;
+        padding-right: 1rem;
+        color: white;
+    }
+    
+}

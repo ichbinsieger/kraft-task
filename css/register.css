@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+}
+main{
+    width: 100%;
+    display: flex;
+    
+}
+.create{
+    width: 50%;
+    position: relative;
+    background-image: url(/images/dan-counsell-zIwAchjDirM-unsplash\ 1.png);
+    background-size: cover;
+    position: top center;
+    height: 103vh;
+    
+    
+    
+   
+    z-index: 1;
+   
+}
+
+.create::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #363560 ;
+    z-index: -1;
+    opacity: 0.9;
+    width: 100%;
+    height: inherit;
+   
+}
+a{
+    text-decoration: none;
+}
+.createwords{
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    line-height: 7rem;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 15%;
+    left: 18%;
+    
+}
+.socialmedia a{
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+.register{
+    background-color: #1A191C;
+    width: 50%;
+    padding: 6rem;
+    padding-bottom: 3rem;
+   
+}
+.registerwords{
+   
+
+}
+.sharestory{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 900;
+    line-height: 2.8rem;
+}
+.getstarted{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.26);
+   
+}
+.registerform{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: #1A191C;
+    border: 1px solid rgba(229, 229, 229, 0.08);
+    box-sizing: border-box;
+    border-radius: 11px;
+    outline: none;
+    color: whitesmoke;
+}
+input:focus{
+    background: #1A191C;
+}
+input::placeholder{
+    padding-left:1rem;
+    font-weight: 500;
+}
+#CreateAccount{
+    background-color: #363560;
+    padding:2.8rem ;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+}
+.already{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.26);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+ .loginlink {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+@media (max-width:1079px){
+    
+    main{
+        flex-direction: column;
+    }
+    .create,.register{
+        width: 100%;
+    }
+    .createwords{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+       
+       margin-top: 10em;
+        
+    }
+    .createwords{
+       
+        justify-content: center;
+        margin-top: 0;
+        position: absolute;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: white;
+        top: 20%;
+        
+        right: 20%;
+        
+        line-height: 7rem;
+    }
+    .crewords{
+        
+        font-size: 8rem;
+        font-weight: 700;
+        color: white;
+        line-height: 10rem;
+        display: flex;
+    }
+    .socialmedia{
+        position: absolute;
+        bottom: 10%;
+        left: 20%;
+        
+    }
+    .socialmedia a{
+        font-size: 2.2rem;
+        padding-right: 1.5rem;
+        color: white;
+        
+    }
+    
+    #CreateAccount{
+        background-color: #363560;
+        padding:2.5rem ;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+    .sharestory,.socialmedia,.loginlink{
+        
+        font-weight: 200;
+        
+    }
+    .already{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.26);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+     .loginlink {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: white;
+    }
+    
+        
+}
+@media (max-width:600px){
+    .crewords{
+        
+        font-size: 3.4rem;
+        line-height: 3.4rem;
+        font-weight: 700;
+        color: white;
+        display: flex;
+    }
+    .socialmedia{
+        position: absolute;
+        bottom: 10%;
+        left: 20%;
+        
+    }
+    .socialmedia a{
+        font-size: 1.2rem;
+        padding-right: 1.5rem;
+        color: white;
+        
+    }
+    
+}

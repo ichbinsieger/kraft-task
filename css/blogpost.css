@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogpost{
+    width: 70%;
+    background-color:#1A191C ;
+   padding: 2rem;
+   padding-top: 8rem;
+   padding-left: 5rem;
+
+}
+.blogOptions{
+    display: flex;
+    
+}
+.postTitle{
+    font-size: 1.9rem;
+    padding-right: 3rem;
+    color: rgb(230, 224, 224);
+    font-weight:500;
+}
+.option{
+    padding-left: 20rem;
+}
+.bloginfo{
+    display: flex;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+.likes{
+    padding-left: 2rem;
+}
+.likesnum{
+    color: white;
+}
+.dateofBlog{
+    color: rgba(255, 255, 255, 0.26);
+}
+.content{
+   padding-left: 3rem;
+   padding-right: 5rem;
+}
+.blogimg{
+    padding-bottom: 2rem;
+    width: 100%;
+}
+.post{
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.31);
+    font-weight: 100;
+    line-height: 2.5rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+   
+}
+
+
+@media (max-width:1079px){
+    .blogpost{
+        width: 100%;
+        background-color:#1A191C ;
+       padding: 2rem;
+       padding-top: 5rem;
+       padding-left: 1rem;
+    
+    }
+    .blogOptions{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .postTitle{
+        font-size: 1.8rem;
+        padding-right: 0rem;
+        color: rgb(230, 224, 224);
+        font-weight:500;
+        width: 100%;
+    }
+    .option{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+.delete{
+        padding-left: 1rem;
+        margin-top: 3rem;
+        padding-right: 0;
+        
+    }
+    .edit{
+
+    }
+    .bloginfo{
+        display: flex;
+        padding-top: 1.5rem;
+        font-size: 1.4rem;
+        padding-bottom: 2rem;
+    }
+    .likes{
+        padding-left: 2rem;
+        
+    }
+    .content{
+        padding-left: 1rem;
+        padding-right: 1rem;
+     }
+     .blogimg{
+         padding-bottom: 2rem;
+         width: 100%;
+        
+     }
+     .post{
+         font-size: 1.25rem;
+         color: rgba(255, 255, 255, 0.31);
+         font-weight: 100;
+         line-height: 2.5rem;
+        
+         padding-top: 1rem;
+        
+     }
+}

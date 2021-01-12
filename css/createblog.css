@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.createpost{
+    background-color: #1A191C;
+    padding: 5rem 5rem 5rem 5rem;
+    width: 70%;
+}
+.createhead{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 5rem;
+}
+.createForm{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+#Addimage,#postTitle{
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: #1A191C;
+    border: 1px solid rgba(229, 229, 229, 0.08);
+    box-sizing: border-box;
+    border-radius: 11px;
+    outline: none;
+    color: whitesmoke;
+    
+}
+#addimage{
+    cursor: none;
+}
+
+
+textarea{
+    resize: none;
+    position: relative;
+    background: #1A191C;
+    outline: none;
+   color: white;
+    border: 1px solid rgba(229, 229, 229, 0.08);
+    box-sizing: border-box;
+    border-radius: 11px;
+    padding: 1.2rem;
+    padding-left: 2rem;
+    width: 100%;
+    
+}
+textarea::placeholder{
+    font-size: 1.6rem;
+}
+.Createbtn{
+  display: flex;
+  justify-content: center;
+  background-color:rgba(54, 53, 96, 0.69);
+  padding:2.8rem ;
+  margin-top: 4rem;
+  font-weight: 900;
+  border-radius: 1.1rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  outline: none;
+  border: none;
+  width: 99%;
+
+}
+
+
+@media (max-width:1079px){
+    .createpost{
+        background-color: #1A191C;
+        padding: 5rem 5rem 5rem 5rem;
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .createhead{
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 900;
+        padding-top: 5rem;
+    }
+    textarea::placeholder{
+        font-size: 1.2rem;
+    }
+}

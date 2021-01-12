@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resetpass{
+    background-color: #1A191C;
+    width: 100%;
+    padding: 8rem;
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+}
+.resetword{
+    font-size: 3.2rem;
+    color: white;
+    padding-bottom: 5rem;
+}
+.resetForm{
+    display: flex;
+    flex-direction: column;
+}
+#currentpass,#newpass,#confirmpass{
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background: #1A191C;
+    border: 1px solid rgba(229, 229, 229, 0.08);
+    box-sizing: border-box;
+    border-radius: 11px;
+    outline: none;
+    color: whitesmoke;
+}
+#resetBtn{
+    background-color: #363560;
+    padding:2.8rem ;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 1.1rem;
+}
+
+@media (max-width:600px){
+    
+}
